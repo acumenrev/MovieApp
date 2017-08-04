@@ -14,6 +14,26 @@
 		7B6CC5781F3426DD00810DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B6CC5771F3426DD00810DFC /* Assets.xcassets */; };
 		7B6CC57B1F3426DD00810DFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6CC5791F3426DD00810DFC /* LaunchScreen.storyboard */; };
 		7B6CC5861F3426DD00810DFC /* MoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC5851F3426DD00810DFC /* MoviesTests.swift */; };
+		7B6CC5941F342C0300810DFC /* MABaseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC5931F342C0300810DFC /* MABaseObject.swift */; };
+		7B6CC5961F342C3F00810DFC /* MABaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC5951F342C3F00810DFC /* MABaseManager.swift */; };
+		7B6CC5981F342C9300810DFC /* MANetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC5971F342C9300810DFC /* MANetworkManager.swift */; };
+		7B6CC59B1F342CDB00810DFC /* MABaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC59A1F342CDB00810DFC /* MABaseModel.swift */; };
+		7B6CC59D1F342CF300810DFC /* MANetworkResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC59C1F342CF300810DFC /* MANetworkResponseModel.swift */; };
+		7B6CC5A21F342E3500810DFC /* JSONProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC5A11F342E3500810DFC /* JSONProtocol.swift */; };
+		7B6CC5A31F342F0300810DFC /* JSONProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC5A11F342E3500810DFC /* JSONProtocol.swift */; };
+		7B6CC5A41F342F0600810DFC /* MANetworkResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC59C1F342CF300810DFC /* MANetworkResponseModel.swift */; };
+		7B6CC5A51F342F0800810DFC /* MABaseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC5931F342C0300810DFC /* MABaseObject.swift */; };
+		7B6CC5A61F342F0B00810DFC /* MABaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC5951F342C3F00810DFC /* MABaseManager.swift */; };
+		7B6CC5A71F342F0F00810DFC /* MABaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC59A1F342CDB00810DFC /* MABaseModel.swift */; };
+		7B6CC5A81F342F1200810DFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC5701F3426DD00810DFC /* AppDelegate.swift */; };
+		7B6CC5A91F342F1400810DFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC5721F3426DD00810DFC /* ViewController.swift */; };
+		7B6CC5AA1F342F1C00810DFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6CC5741F3426DD00810DFC /* Main.storyboard */; };
+		7B6CC5AB1F342F1F00810DFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6CC5791F3426DD00810DFC /* LaunchScreen.storyboard */; };
+		7B6CC5AD1F342FBF00810DFC /* MAAppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC5AC1F342FBF00810DFC /* MAAppError.swift */; };
+		7B6CC5AF1F3430D200810DFC /* MAAppDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC5AE1F3430D200810DFC /* MAAppDirector.swift */; };
+		7B6CC5B01F3430D200810DFC /* MAAppDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC5AE1F3430D200810DFC /* MAAppDirector.swift */; };
+		7B6CC5B31F34315500810DFC /* MAAppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC5B21F34315500810DFC /* MAAppUtils.swift */; };
+		7B6CC5B41F34315500810DFC /* MAAppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CC5B21F34315500810DFC /* MAAppUtils.swift */; };
 		D4BF0D33C58CD098996138A9 /* Pods_Movies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58A93101698EFAD4F2CB3A7 /* Pods_Movies.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +61,15 @@
 		7B6CC5811F3426DD00810DFC /* MoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6CC5851F3426DD00810DFC /* MoviesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTests.swift; sourceTree = "<group>"; };
 		7B6CC5871F3426DD00810DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B6CC5931F342C0300810DFC /* MABaseObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MABaseObject.swift; path = Common/MABaseObject.swift; sourceTree = "<group>"; };
+		7B6CC5951F342C3F00810DFC /* MABaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MABaseManager.swift; sourceTree = "<group>"; };
+		7B6CC5971F342C9300810DFC /* MANetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MANetworkManager.swift; path = Common/Managers/MANetworkManager.swift; sourceTree = "<group>"; };
+		7B6CC59A1F342CDB00810DFC /* MABaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MABaseModel.swift; path = Common/MABaseModel.swift; sourceTree = "<group>"; };
+		7B6CC59C1F342CF300810DFC /* MANetworkResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MANetworkResponseModel.swift; path = Common/Models/MANetworkResponseModel.swift; sourceTree = "<group>"; };
+		7B6CC5A11F342E3500810DFC /* JSONProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONProtocol.swift; path = Common/Protocols/JSONProtocol.swift; sourceTree = "<group>"; };
+		7B6CC5AC1F342FBF00810DFC /* MAAppError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MAAppError.swift; path = Common/Models/MAAppError.swift; sourceTree = "<group>"; };
+		7B6CC5AE1F3430D200810DFC /* MAAppDirector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAAppDirector.swift; sourceTree = "<group>"; };
+		7B6CC5B21F34315500810DFC /* MAAppUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MAAppUtils.swift; path = Common/Utils/MAAppUtils.swift; sourceTree = "<group>"; };
 		9BDDE8D6EEDB52263EDAF32B /* Pods-MoviesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoviesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoviesTests/Pods-MoviesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD58D17F295FCD39C72BA86D /* Pods-Movies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movies.release.xcconfig"; path = "Pods/Target Support Files/Pods-Movies/Pods-Movies.release.xcconfig"; sourceTree = "<group>"; };
 		F58A93101698EFAD4F2CB3A7 /* Pods_Movies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Movies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,12 +138,15 @@
 		7B6CC56F1F3426DD00810DFC /* Movies */ = {
 			isa = PBXGroup;
 			children = (
+				7B6CC5911F342BBD00810DFC /* Common */,
+				7B6CC5901F342BB500810DFC /* Scenes */,
 				7B6CC5701F3426DD00810DFC /* AppDelegate.swift */,
 				7B6CC5721F3426DD00810DFC /* ViewController.swift */,
 				7B6CC5741F3426DD00810DFC /* Main.storyboard */,
 				7B6CC5771F3426DD00810DFC /* Assets.xcassets */,
 				7B6CC5791F3426DD00810DFC /* LaunchScreen.storyboard */,
 				7B6CC57C1F3426DD00810DFC /* Info.plist */,
+				7B6CC5AE1F3430D200810DFC /* MAAppDirector.swift */,
 			);
 			path = Movies;
 			sourceTree = "<group>";
@@ -126,6 +158,60 @@
 				7B6CC5871F3426DD00810DFC /* Info.plist */,
 			);
 			path = MoviesTests;
+			sourceTree = "<group>";
+		};
+		7B6CC5901F342BB500810DFC /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		7B6CC5911F342BBD00810DFC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7B6CC5B11F34314000810DFC /* Utils */,
+				7B6CC59E1F342D1100810DFC /* Protocols */,
+				7B6CC5991F342CC000810DFC /* Models */,
+				7B6CC5921F342BC200810DFC /* Managers */,
+				7B6CC5931F342C0300810DFC /* MABaseObject.swift */,
+				7B6CC5951F342C3F00810DFC /* MABaseManager.swift */,
+				7B6CC59A1F342CDB00810DFC /* MABaseModel.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		7B6CC5921F342BC200810DFC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				7B6CC5971F342C9300810DFC /* MANetworkManager.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		7B6CC5991F342CC000810DFC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7B6CC59C1F342CF300810DFC /* MANetworkResponseModel.swift */,
+				7B6CC5AC1F342FBF00810DFC /* MAAppError.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		7B6CC59E1F342D1100810DFC /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				7B6CC5A11F342E3500810DFC /* JSONProtocol.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		7B6CC5B11F34314000810DFC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7B6CC5B21F34315500810DFC /* MAAppUtils.swift */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,9 +264,10 @@
 		7B6CC5651F3426DD00810DFC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MA;
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = Aduro;
+				ORGANIZATIONNAME = "Tri Vo";
 				TargetAttributes = {
 					7B6CC56C1F3426DD00810DFC = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -229,6 +316,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B6CC5AA1F342F1C00810DFC /* Main.storyboard in Resources */,
+				7B6CC5AB1F342F1F00810DFC /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,8 +446,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B6CC59B1F342CDB00810DFC /* MABaseModel.swift in Sources */,
+				7B6CC5A21F342E3500810DFC /* JSONProtocol.swift in Sources */,
 				7B6CC5731F3426DD00810DFC /* ViewController.swift in Sources */,
+				7B6CC5AD1F342FBF00810DFC /* MAAppError.swift in Sources */,
 				7B6CC5711F3426DD00810DFC /* AppDelegate.swift in Sources */,
+				7B6CC5B31F34315500810DFC /* MAAppUtils.swift in Sources */,
+				7B6CC59D1F342CF300810DFC /* MANetworkResponseModel.swift in Sources */,
+				7B6CC5981F342C9300810DFC /* MANetworkManager.swift in Sources */,
+				7B6CC5961F342C3F00810DFC /* MABaseManager.swift in Sources */,
+				7B6CC5941F342C0300810DFC /* MABaseObject.swift in Sources */,
+				7B6CC5AF1F3430D200810DFC /* MAAppDirector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +465,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B6CC5861F3426DD00810DFC /* MoviesTests.swift in Sources */,
+				7B6CC5A51F342F0800810DFC /* MABaseObject.swift in Sources */,
+				7B6CC5A71F342F0F00810DFC /* MABaseModel.swift in Sources */,
+				7B6CC5A31F342F0300810DFC /* JSONProtocol.swift in Sources */,
+				7B6CC5A81F342F1200810DFC /* AppDelegate.swift in Sources */,
+				7B6CC5A61F342F0B00810DFC /* MABaseManager.swift in Sources */,
+				7B6CC5A91F342F1400810DFC /* ViewController.swift in Sources */,
+				7B6CC5A41F342F0600810DFC /* MANetworkResponseModel.swift in Sources */,
+				7B6CC5B01F3430D200810DFC /* MAAppDirector.swift in Sources */,
+				7B6CC5B41F34315500810DFC /* MAAppUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,6 +681,7 @@
 				7B6CC58C1F3426DD00810DFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B6CC58D1F3426DD00810DFC /* Build configuration list for PBXNativeTarget "MoviesTests" */ = {
 			isa = XCConfigurationList;
@@ -582,6 +690,7 @@
 				7B6CC58F1F3426DD00810DFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

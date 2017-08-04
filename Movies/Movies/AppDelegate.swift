@@ -11,11 +11,20 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    static var originDelegate : AppDelegate!
+    var director : MAAppDirector?
     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        AppDelegate.originDelegate = self
+        
+        if let window = UIWindow(frame: UIScreen.main.bounds) as? UIWindow {
+            self.window = window
+            director = MAAppDirector.initWithWindow(window, launchOptions: launchOptions)
+        }
+        
         return true
     }
 
