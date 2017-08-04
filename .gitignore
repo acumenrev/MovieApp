@@ -1,0 +1,239 @@
+Movies/Pods/Alamofire/LICENSE
+Movies/Pods/Alamofire/README.md
+Movies/Pods/Alamofire/Source/AFError.swift
+Movies/Pods/Alamofire/Source/Alamofire.swift
+Movies/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift
+Movies/Pods/Alamofire/Source/MultipartFormData.swift
+Movies/Pods/Alamofire/Source/NetworkReachabilityManager.swift
+Movies/Pods/Alamofire/Source/Notifications.swift
+Movies/Pods/Alamofire/Source/ParameterEncoding.swift
+Movies/Pods/Alamofire/Source/Request.swift
+Movies/Pods/Alamofire/Source/Response.swift
+Movies/Pods/Alamofire/Source/ResponseSerialization.swift
+Movies/Pods/Alamofire/Source/Result.swift
+Movies/Pods/Alamofire/Source/ServerTrustPolicy.swift
+Movies/Pods/Alamofire/Source/SessionDelegate.swift
+Movies/Pods/Alamofire/Source/SessionManager.swift
+Movies/Pods/Alamofire/Source/TaskDelegate.swift
+Movies/Pods/Alamofire/Source/Timeline.swift
+Movies/Pods/Alamofire/Source/Validation.swift
+Movies/Pods/Bolts-Swift/LICENSE
+Movies/Pods/Bolts-Swift/README.md
+Movies/Pods/Bolts-Swift/Sources/BoltsSwift/Errors.swift
+Movies/Pods/Bolts-Swift/Sources/BoltsSwift/Executor.swift
+Movies/Pods/Bolts-Swift/Sources/BoltsSwift/Task+ContinueWith.swift
+Movies/Pods/Bolts-Swift/Sources/BoltsSwift/Task+Delay.swift
+Movies/Pods/Bolts-Swift/Sources/BoltsSwift/Task+WhenAll.swift
+Movies/Pods/Bolts-Swift/Sources/BoltsSwift/Task+WhenAny.swift
+Movies/Pods/Bolts-Swift/Sources/BoltsSwift/Task.swift
+Movies/Pods/Bolts-Swift/Sources/BoltsSwift/TaskCompletionSource.swift
+Movies/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift
+Movies/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift
+Movies/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQUITextFieldView+Additions.swift
+Movies/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQUIView+Hierarchy.swift
+Movies/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQUIViewController+Additions.swift
+Movies/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQUIWindow+Hierarchy.swift
+Movies/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift
+Movies/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift
+Movies/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQKeyboardManager.swift
+Movies/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift
+Movies/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQTextView/IQTextView.swift
+Movies/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQBarButtonItem.swift
+Movies/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift
+Movies/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift
+Movies/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift
+Movies/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift
+Movies/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle/IQButtonBarArrowDown@2x.png
+Movies/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle/IQButtonBarArrowDown@3x.png
+Movies/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle/IQButtonBarArrowLeft@2x.png
+Movies/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle/IQButtonBarArrowLeft@3x.png
+Movies/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle/IQButtonBarArrowRight@2x.png
+Movies/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle/IQButtonBarArrowRight@3x.png
+Movies/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle/IQButtonBarArrowUp@2x.png
+Movies/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle/IQButtonBarArrowUp@3x.png
+Movies/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle/de.lproj/IQKeyboardManager.strings
+Movies/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle/en.lproj/IQKeyboardManager.strings
+Movies/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle/es.lproj/IQKeyboardManager.strings
+Movies/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle/fr.lproj/IQKeyboardManager.strings
+Movies/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle/zh-Hans/IQKeyboardManager.strings
+Movies/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle/zh-Hant/IQKeyboardManager.strings
+Movies/Pods/IQKeyboardManagerSwift/LICENSE.md
+Movies/Pods/IQKeyboardManagerSwift/README.md
+Movies/Pods/Kingfisher/LICENSE
+Movies/Pods/Kingfisher/README.md
+Movies/Pods/Kingfisher/Sources/AnimatedImageView.swift
+Movies/Pods/Kingfisher/Sources/Box.swift
+Movies/Pods/Kingfisher/Sources/CacheSerializer.swift
+Movies/Pods/Kingfisher/Sources/Filter.swift
+Movies/Pods/Kingfisher/Sources/FormatIndicatedCacheSerializer.swift
+Movies/Pods/Kingfisher/Sources/Image.swift
+Movies/Pods/Kingfisher/Sources/ImageCache.swift
+Movies/Pods/Kingfisher/Sources/ImageDownloader.swift
+Movies/Pods/Kingfisher/Sources/ImagePrefetcher.swift
+Movies/Pods/Kingfisher/Sources/ImageProcessor.swift
+Movies/Pods/Kingfisher/Sources/ImageTransition.swift
+Movies/Pods/Kingfisher/Sources/ImageView+Kingfisher.swift
+Movies/Pods/Kingfisher/Sources/Indicator.swift
+Movies/Pods/Kingfisher/Sources/Kingfisher.h
+Movies/Pods/Kingfisher/Sources/Kingfisher.swift
+Movies/Pods/Kingfisher/Sources/KingfisherManager.swift
+Movies/Pods/Kingfisher/Sources/KingfisherOptionsInfo.swift
+Movies/Pods/Kingfisher/Sources/RequestModifier.swift
+Movies/Pods/Kingfisher/Sources/Resource.swift
+Movies/Pods/Kingfisher/Sources/String+MD5.swift
+Movies/Pods/Kingfisher/Sources/ThreadHelper.swift
+Movies/Pods/Kingfisher/Sources/UIButton+Kingfisher.swift
+Movies/Pods/Localize-Swift/LICENSE
+Movies/Pods/Localize-Swift/README.md
+Movies/Pods/Localize-Swift/Sources/Localize.swift
+Movies/Pods/Localize-Swift/Sources/Localize_Swift.h
+Movies/Pods/Localize-Swift/Sources/String+LocalizeBundle.swift
+Movies/Pods/Localize-Swift/Sources/String+LocalizeTableName.swift
+Movies/Pods/Localize-Swift/Sources/String+LocalizedBundleTableName.swift
+Movies/Pods/Manifest.lock
+Movies/Pods/Pods.xcodeproj/project.pbxproj
+Movies/Pods/Pods.xcodeproj/xcuserdata/trivo.xcuserdatad/xcschemes/Alamofire.xcscheme
+Movies/Pods/Pods.xcodeproj/xcuserdata/trivo.xcuserdatad/xcschemes/Bolts-Swift.xcscheme
+Movies/Pods/Pods.xcodeproj/xcuserdata/trivo.xcuserdatad/xcschemes/IQKeyboardManagerSwift.xcscheme
+Movies/Pods/Pods.xcodeproj/xcuserdata/trivo.xcuserdatad/xcschemes/Kingfisher.xcscheme
+Movies/Pods/Pods.xcodeproj/xcuserdata/trivo.xcuserdatad/xcschemes/Localize-Swift.xcscheme
+Movies/Pods/Pods.xcodeproj/xcuserdata/trivo.xcuserdatad/xcschemes/Pods-Movies.xcscheme
+Movies/Pods/Pods.xcodeproj/xcuserdata/trivo.xcuserdatad/xcschemes/Pods-MoviesTests.xcscheme
+Movies/Pods/Pods.xcodeproj/xcuserdata/trivo.xcuserdatad/xcschemes/PureLayout.xcscheme
+Movies/Pods/Pods.xcodeproj/xcuserdata/trivo.xcuserdatad/xcschemes/SVProgressHUD.xcscheme
+Movies/Pods/Pods.xcodeproj/xcuserdata/trivo.xcuserdatad/xcschemes/SwiftyJSON.xcscheme
+Movies/Pods/Pods.xcodeproj/xcuserdata/trivo.xcuserdatad/xcschemes/XCGLogger.xcscheme
+Movies/Pods/Pods.xcodeproj/xcuserdata/trivo.xcuserdatad/xcschemes/xcschememanagement.plist
+Movies/Pods/PureLayout/LICENSE
+Movies/Pods/PureLayout/PureLayout/PureLayout/ALView+PureLayout.h
+Movies/Pods/PureLayout/PureLayout/PureLayout/ALView+PureLayout.m
+Movies/Pods/PureLayout/PureLayout/PureLayout/NSArray+PureLayout.h
+Movies/Pods/PureLayout/PureLayout/PureLayout/NSArray+PureLayout.m
+Movies/Pods/PureLayout/PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h
+Movies/Pods/PureLayout/PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m
+Movies/Pods/PureLayout/PureLayout/PureLayout/PureLayout+Internal.h
+Movies/Pods/PureLayout/PureLayout/PureLayout/PureLayout.h
+Movies/Pods/PureLayout/PureLayout/PureLayout/PureLayoutDefines.h
+Movies/Pods/PureLayout/README.md
+Movies/Pods/SVProgressHUD/LICENSE.txt
+Movies/Pods/SVProgressHUD/README.md
+Movies/Pods/SVProgressHUD/SVProgressHUD/SVIndefiniteAnimatedView.h
+Movies/Pods/SVProgressHUD/SVProgressHUD/SVIndefiniteAnimatedView.m
+Movies/Pods/SVProgressHUD/SVProgressHUD/SVProgressAnimatedView.h
+Movies/Pods/SVProgressHUD/SVProgressHUD/SVProgressAnimatedView.m
+Movies/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/angle-mask.png
+Movies/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/angle-mask@2x.png
+Movies/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/angle-mask@3x.png
+Movies/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/error.png
+Movies/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/error@2x.png
+Movies/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/error@3x.png
+Movies/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/info.png
+Movies/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/info@2x.png
+Movies/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/info@3x.png
+Movies/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/success.png
+Movies/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/success@2x.png
+Movies/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/success@3x.png
+Movies/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.h
+Movies/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.m
+Movies/Pods/SVProgressHUD/SVProgressHUD/SVRadialGradientLayer.h
+Movies/Pods/SVProgressHUD/SVProgressHUD/SVRadialGradientLayer.m
+Movies/Pods/SwiftyJSON/LICENSE
+Movies/Pods/SwiftyJSON/README.md
+Movies/Pods/SwiftyJSON/Source/SwiftyJSON.swift
+Movies/Pods/Target Support Files/Alamofire/Alamofire-dummy.m
+Movies/Pods/Target Support Files/Alamofire/Alamofire-prefix.pch
+Movies/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h
+Movies/Pods/Target Support Files/Alamofire/Alamofire.modulemap
+Movies/Pods/Target Support Files/Alamofire/Alamofire.xcconfig
+Movies/Pods/Target Support Files/Alamofire/Info.plist
+Movies/Pods/Target Support Files/Bolts-Swift/Bolts-Swift-dummy.m
+Movies/Pods/Target Support Files/Bolts-Swift/Bolts-Swift-prefix.pch
+Movies/Pods/Target Support Files/Bolts-Swift/Bolts-Swift-umbrella.h
+Movies/Pods/Target Support Files/Bolts-Swift/Bolts-Swift.modulemap
+Movies/Pods/Target Support Files/Bolts-Swift/Bolts-Swift.xcconfig
+Movies/Pods/Target Support Files/Bolts-Swift/Info.plist
+Movies/Pods/Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-dummy.m
+Movies/Pods/Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch
+Movies/Pods/Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-umbrella.h
+Movies/Pods/Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap
+Movies/Pods/Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.xcconfig
+Movies/Pods/Target Support Files/IQKeyboardManagerSwift/Info.plist
+Movies/Pods/Target Support Files/Kingfisher/Info.plist
+Movies/Pods/Target Support Files/Kingfisher/Kingfisher-dummy.m
+Movies/Pods/Target Support Files/Kingfisher/Kingfisher-prefix.pch
+Movies/Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h
+Movies/Pods/Target Support Files/Kingfisher/Kingfisher.modulemap
+Movies/Pods/Target Support Files/Kingfisher/Kingfisher.xcconfig
+Movies/Pods/Target Support Files/Localize-Swift/Info.plist
+Movies/Pods/Target Support Files/Localize-Swift/Localize-Swift-dummy.m
+Movies/Pods/Target Support Files/Localize-Swift/Localize-Swift-prefix.pch
+Movies/Pods/Target Support Files/Localize-Swift/Localize-Swift-umbrella.h
+Movies/Pods/Target Support Files/Localize-Swift/Localize-Swift.modulemap
+Movies/Pods/Target Support Files/Localize-Swift/Localize-Swift.xcconfig
+Movies/Pods/Target Support Files/Pods-Movies/Info.plist
+Movies/Pods/Target Support Files/Pods-Movies/Pods-Movies-acknowledgements.markdown
+Movies/Pods/Target Support Files/Pods-Movies/Pods-Movies-acknowledgements.plist
+Movies/Pods/Target Support Files/Pods-Movies/Pods-Movies-dummy.m
+Movies/Pods/Target Support Files/Pods-Movies/Pods-Movies-frameworks.sh
+Movies/Pods/Target Support Files/Pods-Movies/Pods-Movies-resources.sh
+Movies/Pods/Target Support Files/Pods-Movies/Pods-Movies-umbrella.h
+Movies/Pods/Target Support Files/Pods-Movies/Pods-Movies.debug.xcconfig
+Movies/Pods/Target Support Files/Pods-Movies/Pods-Movies.modulemap
+Movies/Pods/Target Support Files/Pods-Movies/Pods-Movies.release.xcconfig
+Movies/Pods/Target Support Files/Pods-MoviesTests/Info.plist
+Movies/Pods/Target Support Files/Pods-MoviesTests/Pods-MoviesTests-acknowledgements.markdown
+Movies/Pods/Target Support Files/Pods-MoviesTests/Pods-MoviesTests-acknowledgements.plist
+Movies/Pods/Target Support Files/Pods-MoviesTests/Pods-MoviesTests-dummy.m
+Movies/Pods/Target Support Files/Pods-MoviesTests/Pods-MoviesTests-frameworks.sh
+Movies/Pods/Target Support Files/Pods-MoviesTests/Pods-MoviesTests-resources.sh
+Movies/Pods/Target Support Files/Pods-MoviesTests/Pods-MoviesTests-umbrella.h
+Movies/Pods/Target Support Files/Pods-MoviesTests/Pods-MoviesTests.debug.xcconfig
+Movies/Pods/Target Support Files/Pods-MoviesTests/Pods-MoviesTests.modulemap
+Movies/Pods/Target Support Files/Pods-MoviesTests/Pods-MoviesTests.release.xcconfig
+Movies/Pods/Target Support Files/PureLayout/Info.plist
+Movies/Pods/Target Support Files/PureLayout/PureLayout-dummy.m
+Movies/Pods/Target Support Files/PureLayout/PureLayout-prefix.pch
+Movies/Pods/Target Support Files/PureLayout/PureLayout-umbrella.h
+Movies/Pods/Target Support Files/PureLayout/PureLayout.modulemap
+Movies/Pods/Target Support Files/PureLayout/PureLayout.xcconfig
+Movies/Pods/Target Support Files/SVProgressHUD/Info.plist
+Movies/Pods/Target Support Files/SVProgressHUD/SVProgressHUD-dummy.m
+Movies/Pods/Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch
+Movies/Pods/Target Support Files/SVProgressHUD/SVProgressHUD-umbrella.h
+Movies/Pods/Target Support Files/SVProgressHUD/SVProgressHUD.modulemap
+Movies/Pods/Target Support Files/SVProgressHUD/SVProgressHUD.xcconfig
+Movies/Pods/Target Support Files/SwiftyJSON/Info.plist
+Movies/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-dummy.m
+Movies/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch
+Movies/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h
+Movies/Pods/Target Support Files/SwiftyJSON/SwiftyJSON.modulemap
+Movies/Pods/Target Support Files/SwiftyJSON/SwiftyJSON.xcconfig
+Movies/Pods/Target Support Files/XCGLogger/Info.plist
+Movies/Pods/Target Support Files/XCGLogger/XCGLogger-dummy.m
+Movies/Pods/Target Support Files/XCGLogger/XCGLogger-prefix.pch
+Movies/Pods/Target Support Files/XCGLogger/XCGLogger-umbrella.h
+Movies/Pods/Target Support Files/XCGLogger/XCGLogger.modulemap
+Movies/Pods/Target Support Files/XCGLogger/XCGLogger.xcconfig
+Movies/Pods/XCGLogger/LICENSE.txt
+Movies/Pods/XCGLogger/README.md
+Movies/Pods/XCGLogger/Sources/XCGLogger/Destinations/AppleSystemLogDestination.swift
+Movies/Pods/XCGLogger/Sources/XCGLogger/Destinations/BaseDestination.swift
+Movies/Pods/XCGLogger/Sources/XCGLogger/Destinations/ConsoleDestination.swift
+Movies/Pods/XCGLogger/Sources/XCGLogger/Destinations/DestinationProtocol.swift
+Movies/Pods/XCGLogger/Sources/XCGLogger/Destinations/FileDestination.swift
+Movies/Pods/XCGLogger/Sources/XCGLogger/Destinations/TestDestination.swift
+Movies/Pods/XCGLogger/Sources/XCGLogger/Extensions/DispatchQueue+XCGAdditions.swift
+Movies/Pods/XCGLogger/Sources/XCGLogger/Filters/DevFilter.swift
+Movies/Pods/XCGLogger/Sources/XCGLogger/Filters/FileNameFilter.swift
+Movies/Pods/XCGLogger/Sources/XCGLogger/Filters/FilterProtocol.swift
+Movies/Pods/XCGLogger/Sources/XCGLogger/Filters/TagFilter.swift
+Movies/Pods/XCGLogger/Sources/XCGLogger/Filters/UserInfoFilter.swift
+Movies/Pods/XCGLogger/Sources/XCGLogger/LogFormatters/ANSIColorLogFormatter.swift
+Movies/Pods/XCGLogger/Sources/XCGLogger/LogFormatters/Base64LogFormatter.swift
+Movies/Pods/XCGLogger/Sources/XCGLogger/LogFormatters/LogFormatterProtocol.swift
+Movies/Pods/XCGLogger/Sources/XCGLogger/LogFormatters/PrePostFixLogFormatter.swift
+Movies/Pods/XCGLogger/Sources/XCGLogger/LogFormatters/XcodeColorsLogFormatter.swift
+Movies/Pods/XCGLogger/Sources/XCGLogger/Misc/HelperFunctions.swift
+Movies/Pods/XCGLogger/Sources/XCGLogger/Misc/LogDetails.swift
+Movies/Pods/XCGLogger/Sources/XCGLogger/XCGLogger.h
+Movies/Pods/XCGLogger/Sources/XCGLogger/XCGLogger.swift

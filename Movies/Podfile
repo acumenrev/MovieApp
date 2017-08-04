@@ -1,0 +1,35 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+def installedPods
+	# Networking
+    pod 'Alamofire', '~> 4.3'
+    pod 'SwiftyJSON'
+	
+	# UI
+	pod 'IQKeyboardManagerSwift'
+    pod 'PureLayout'
+    pod 'Localize-Swift', '~> 1.7'
+    pod 'SVProgressHUD'
+
+    # Logging, Cache
+    pod 'Kingfisher'
+    pod 'XCGLogger', '~> 4.0.0'
+
+    # Utilities
+    pod 'Bolts-Swift'
+end
+
+target 'Movies' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Movies
+  installedPods
+
+  target 'MoviesTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
