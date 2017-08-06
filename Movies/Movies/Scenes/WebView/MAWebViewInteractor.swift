@@ -17,6 +17,7 @@ protocol MAWebViewInteractorInput {
 
 protocol MAWebViewInteractorOutput {
     func presentSomething(response: MAWebView.Response)
+    
 }
 
 class MAWebViewInteractor: MAWebViewInteractorInput {
@@ -28,13 +29,19 @@ class MAWebViewInteractor: MAWebViewInteractorInput {
     func doSomething(request: MAWebView.Request) {
         // NOTE: Create some Worker to do the work
 
-        worker = MAWebViewWorker()
-
-        worker?.doSomeWork()
-
-        // NOTE: Pass the result to the Presenter
-
-        let response = MAWebView.Response()
-        output?.presentSomething(response: response)
+    }
+    
+    func loadUrl(request: MAWebView.Request.LoadUrl) {
+        guard let worker = worker else { return }
+        
+        worker.loadUrl(request.url)
+    }
+    
+    func loadWebView(request: MAWebView.Request.UI) {
+        if worker == nil {
+            worker = MAWebViewWorker(withWebView: request.webView)
+        }
+        
+        
     }
 }

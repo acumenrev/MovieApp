@@ -33,7 +33,7 @@ class MAWebViewWorkerTests: XCTestCase {
         
         self.vc.loadView()
         
-        self.worker = Movies.MAWebViewWorker()
+        self.worker = Movies.MAWebViewWorker(withWebView: self.vc.webView)
         
         expect(self.worker).notTo(beNil())
     }
@@ -54,6 +54,10 @@ class MAWebViewWorkerTests: XCTestCase {
         self.measure {
             // Put the code you want to measure the time of here.
         }
+    }
+    
+    func testConforming() {
+        expect(self.worker.conforms(to: UIWebViewDelegate.self)).to(equal(true))
     }
     
 }

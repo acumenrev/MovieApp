@@ -15,7 +15,6 @@ import SwiftyJSON
 import Localize_Swift
 import SwifterSwift
 
-
 class MAAppUtils: MABaseObject {
     static let share : MAAppUtils = {
         MAAppUtils()
@@ -278,5 +277,65 @@ class MAAppUtils: MABaseObject {
         let data = try? Data(contentsOf: url)
         
         return data
+    }
+    
+    /// Show an alert on UI
+    ///
+    /// - Parameters:
+    ///   - title: Title
+    ///   - msg: Message
+    ///   - cancel: Cancel title
+    ///   - OKTitle: OK title
+    ///   - cancelhandler: Cancel handler
+    ///   - okHandler: OK handler
+    static func showAlertWith(Title title : String?, Message msg : String?, CancelTitle cancel : String?, OKTitle : String?,
+                              CancelHandler cancelhandler : (() -> ())? ,
+                              OKHandler okHandler : (() -> ())?,_ isOnpresented: Bool? = false) {
+        let alertController = UIAlertController(title: title, message: msg, preferredStyle: .alert)
+        
+        if (MAAppUtils.checkStringNullOrEmpty(cancel) == false) {
+            let action = UIAlertAction(title: cancel, style: .cancel, handler: { (action) in
+                cancelhandler?()
+            })
+            
+            alertController.addAction(action)
+        }
+        
+        if (MAAppUtils.checkStringNullOrEmpty(OKTitle) == false) {
+            let action = UIAlertAction(title: OKTitle, style: .default, handler: { (action) in
+                okHandler?()
+            })
+            
+            alertController.addAction(action)
+        }
+        
+        if(isOnpresented != nil && isOnpresented!){
+            alertController.modalPresentationStyle = .overCurrentContext
+            alertController.modalTransitionStyle = .crossDissolve
+        }
+        
+        AppDelegate.originDelegate.window?.rootViewController?.present(alertController, animated: true, completion: nil)
+    }
+    
+    /// Show error from error object
+    ///
+    /// - Parameters:
+    ///   - err: Error object
+    ///   - cancel: Cancel title
+    ///   - okText: Ok title
+    ///   - cancelhandler: Cancel handler
+    ///   - okhandler: OK Handler
+    static func showErrorWith(errorObj err : Error, cancelTitle cancel : String?, okTitle okText : String?,
+                              canceHandler cancelhandler : (() -> ())?,
+                              okHandler okhandler : (() -> ())?) {
+        var msg = ""
+        if err is MAAppError {
+            let error = err as! MAAppError
+            msg = MAAppUtils.checkNullString(error.domainName)
+        } else {
+            msg = err.localizedDescription
+        }
+        
+        showAlertWith(Title: "MsgBox.Error".localized(), Message: msg, CancelTitle: cancel, OKTitle: okText, CancelHandler: cancelhandler, OKHandler: okhandler)
     }
 }

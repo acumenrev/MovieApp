@@ -56,12 +56,11 @@ class MAMovieDetailWorker : NSObject {
             MAAPIMovies.getMovieDetail(movieId.string, { (movieInfo, err) in
                 MAAppUtils.showNetworkActivityIndicator(false)
                 if let err = err {
-                    
+                    MAAppUtils.showErrorWith(errorObj: err, cancelTitle: "MsgBox.OK".localized(), okTitle: nil, canceHandler: nil, okHandler: nil)
                 } else {
                     if let movieInfo = movieInfo {
                         weakSelf?.movie = movieInfo
                     }
-                    
                     
                     weakSelf?.tblViewMain.reloadWithAnimation(.none)
                 }

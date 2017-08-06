@@ -71,8 +71,6 @@ class MAMoviesWorker : NSObject {
         MAAPIMovies.getMovies(with: Date(), pageNumber: self.currentPage) { (newMovies, appErr) in
             MAAppUtils.showNetworkActivityIndicator(false)
             if let newMovies = newMovies {
-                
-                
                 if weakSelf?.currentPage == 1 {
                     // remove previous results
                     weakSelf?.movies.removeAll()
@@ -95,6 +93,8 @@ class MAMoviesWorker : NSObject {
                     
                     weakSelf?.finishLoadMore()
                 }
+            } else if let err = appErr {
+                MAAppUtils.showErrorWith(errorObj: err, cancelTitle: "MsgBox.OK".localized(), okTitle: nil, canceHandler: nil, okHandler: nil)
             }
         }
     }

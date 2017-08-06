@@ -14,7 +14,13 @@ import UIKit
 struct MAWebView {
   	
   	struct Request {
-
+        struct UI {
+            var webView : UIWebView
+        }
+        
+        struct LoadUrl {
+            var url : String
+        }
     }
 
     struct Response {

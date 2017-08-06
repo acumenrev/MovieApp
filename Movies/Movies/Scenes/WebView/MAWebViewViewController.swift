@@ -17,6 +17,8 @@ protocol MAWebViewViewControllerInput {
 
 protocol MAWebViewViewControllerOutput {
     func doSomething(request: MAWebView.Request)
+    func loadWebView(request : MAWebView.Request.UI)
+    func loadUrl(request : MAWebView.Request.LoadUrl)
 }
 
 class MAWebViewViewController: UIViewController, MAWebViewViewControllerInput {
@@ -39,11 +41,14 @@ class MAWebViewViewController: UIViewController, MAWebViewViewControllerInput {
         
         self.title = "Booking".localized().uppercased()
         
-        if let url = URL(string: "https://www.cathaycineplexes.com.sg/") {
-            if let request = URLRequest.init(url: url) as? URLRequest {
-                webView.loadRequest(request)
-            }
-        }
+        let requestUI = MAWebView.Request.UI(webView: self.webView)
+        self.output?.loadWebView(request: requestUI)
+        
+        let requestLoadUrl = MAWebView.Request.LoadUrl(url: "https://www.cathaycineplexes.com.sg/")
+        
+        self.output?.loadUrl(request: requestLoadUrl)
+        
+        
     }
 
     // MARK: - Event handling

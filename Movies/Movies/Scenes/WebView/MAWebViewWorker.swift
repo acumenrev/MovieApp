@@ -11,10 +11,40 @@
 
 import UIKit
 
-class MAWebViewWorker {
+class MAWebViewWorker : NSObject {
+    fileprivate var webView : UIWebView!
+    
     // MARK: - Business Logic
+    
+    init(withWebView wv : UIWebView) {
+        super.init()
+        self.webView = wv
+        self.webView.delegate = self
+    }
+    
+    func loadUrl(_ urlString : String) {
+        if let url = URL(string: urlString) {
+            if let request = URLRequest.init(url: url) as? URLRequest {
+                webView.loadRequest(request)
+            }
+        }
+    }
 	  
     func doSomeWork() {
         // NOTE: Do the work
+    }
+}
+
+extension MAWebViewWorker : UIWebViewDelegate {
+    func webView(_ webView: UIWebView, didFailLoadWithError error: Error) {
+        MAAppUtils.showErrorWith(errorObj: error, cancelTitle: "MsgBox.OK".localized(), okTitle: nil, canceHandler: nil, okHandler: nil)
+    }
+    
+    func webViewDidStartLoad(_ webView: UIWebView) {
+        MAAppUtils.showNetworkActivityIndicator(true)
+    }
+    
+    func webViewDidFinishLoad(_ webView: UIWebView) {
+        MAAppUtils.showNetworkActivityIndicator(false)
     }
 }
