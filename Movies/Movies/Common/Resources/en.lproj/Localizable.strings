@@ -1,0 +1,27 @@
+/* 
+  Localizations.strings
+  Movies
+
+  Created by admin on 8/5/17.
+  Copyright © 2017 Tri Vo. All rights reserved.
+*/
+
+
+"MsgBox.NetworkNotAvailable" = "Network Unavailable";
+"MsgBox.CannotReachInternet" = "The internet connection appears to be offline. Please check your network and try again.";
+"MsgBox.Warning" = "Warning";
+"MsgBox.Error" = "Error";
+"MsgBox.OK" =  "OK";
+"MsgBox.Cancel" = "CANCEL";
+
+"Msgbox.PageMustBeGreaterThanZero" = "Page must be greater than 0";
+
+"Movies.Title" = "Upcoming Movies";
+
+"MoviesDetail.Overview" = "Overview";
+"MoviesDetail.Genres" = "Genres";
+"MoviesDetail.Language" = "Languages";
+"MoviesDetail.Duration" = "Duration";
+
+
+"Booking" = "Booking";

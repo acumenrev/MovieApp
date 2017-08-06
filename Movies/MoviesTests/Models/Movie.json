@@ -1,0 +1,67 @@
+{
+    "adult": false,
+    "backdrop_path": "/1LuzmBWco1YmN7gruhotILN7jxP.jpg",
+    "belongs_to_collection": null,
+    "budget": 4000000,
+    "genres": [
+               {
+               "id": 12,
+               "name": "Adventure"
+               },
+               {
+               "id": 14,
+               "name": "Fantasy"
+               },
+               {
+               "id": 18,
+               "name": "Drama"
+               },
+               {
+               "id": 9648,
+               "name": "Mystery"
+               }
+               ],
+    "homepage": "",
+    "id": 3598,
+    "imdb_id": "tt0029162",
+    "original_language": "en",
+    "original_title": "Lost Horizon",
+    "overview": "British diplomat Robert Conway and a small group of civilians crash land in the Himalayas, and are rescued by the people of the mysterious, Eden-like valley of Shangri-la. Protected by the mountains from the world outside, where the clouds of World War II are gathering, Shangri-la provides a seductive escape for the world-weary Conway.",
+    "popularity": 0.244398,
+    "poster_path": "/lT5DbBkkmOIVvuiTZin5iXIL2Cf.jpg",
+    "production_companies": [
+                             {
+                             "name": "Columbia Pictures Corporation",
+                             "id": 441
+                             }
+                             ],
+    "production_countries": [
+                             {
+                             "iso_3166_1": "US",
+                             "name": "United States of America"
+                             }
+                             ],
+    "release_date": "1937-09-01",
+    "revenue": 0,
+    "runtime": 97,
+    "spoken_languages": [
+                         {
+                         "iso_639_1": "en",
+                         "name": "English"
+                         },
+                         {
+                         "iso_639_1": "zh",
+                         "name": "普通话"
+                         },
+                         {
+                         "iso_639_1": "es",
+                         "name": "Español"
+                         }
+                         ],
+    "status": "Released",
+    "tagline": "At Last ! . . . The Masterpiece Of America's Foremost Film Genius Blazes To The Screen !",
+    "title": "Lost Horizon",
+    "video": false,
+    "vote_average": 6.8,
+    "vote_count": 40
+}

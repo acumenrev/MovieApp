@@ -237,3 +237,174 @@ Movies/Pods/XCGLogger/Sources/XCGLogger/Misc/HelperFunctions.swift
 Movies/Pods/XCGLogger/Sources/XCGLogger/Misc/LogDetails.swift
 Movies/Pods/XCGLogger/Sources/XCGLogger/XCGLogger.h
 Movies/Pods/XCGLogger/Sources/XCGLogger/XCGLogger.swift
+Movies/Movies.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/Movies.xcscheme
+Movies/Movies.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/MoviesTests.xcscheme
+Movies/Movies.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/xcschememanagement.plist
+Movies/Movies.xcworkspace/xcuserdata/admin.xcuserdatad/UserInterfaceState.xcuserstate
+Movies/Movies.xcworkspace/xcuserdata/admin.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
+Movies/Pods/ESPullToRefresh/LICENSE
+Movies/Pods/ESPullToRefresh/README.md
+Movies/Pods/ESPullToRefresh/Sources/ESPullToRefresh+Manager.swift
+Movies/Pods/ESPullToRefresh/Sources/ESPullToRefresh.swift
+Movies/Pods/ESPullToRefresh/Sources/ESRefreshAnimator.swift
+Movies/Pods/ESPullToRefresh/Sources/ESRefreshComponent.swift
+Movies/Pods/ESPullToRefresh/Sources/ESRefreshProtocol.swift
+Movies/Pods/ESPullToRefresh/Sources/Animator/ESRefreshFooterAnimator.swift
+Movies/Pods/ESPullToRefresh/Sources/Animator/ESRefreshHeaderAnimator.swift
+Movies/Pods/ESPullToRefresh/Sources/Animator/icon_pull_to_refresh_arrow@2x.png
+Movies/Pods/Nimble/LICENSE
+Movies/Pods/Nimble/README.md
+Movies/Pods/Nimble/Sources/Lib/CwlPreconditionTesting/CwlCatchException/CwlCatchException.swift
+Movies/Pods/Nimble/Sources/Lib/CwlPreconditionTesting/CwlCatchExceptionSupport/CwlCatchException.m
+Movies/Pods/Nimble/Sources/Lib/CwlPreconditionTesting/CwlCatchExceptionSupport/include/CwlCatchException.h
+Movies/Pods/Nimble/Sources/Lib/CwlPreconditionTesting/CwlMachBadInstructionHandler/CwlMachBadInstructionHandler.m
+Movies/Pods/Nimble/Sources/Lib/CwlPreconditionTesting/CwlMachBadInstructionHandler/mach_excServer.c
+Movies/Pods/Nimble/Sources/Lib/CwlPreconditionTesting/CwlMachBadInstructionHandler/mach_excServer.h
+Movies/Pods/Nimble/Sources/Lib/CwlPreconditionTesting/CwlMachBadInstructionHandler/include/CwlMachBadInstructionHandler.h
+Movies/Pods/Nimble/Sources/Lib/CwlPreconditionTesting/CwlPreconditionTesting/CwlBadInstructionException.swift
+Movies/Pods/Nimble/Sources/Lib/CwlPreconditionTesting/CwlPreconditionTesting/CwlCatchBadInstruction.swift
+Movies/Pods/Nimble/Sources/Lib/CwlPreconditionTesting/CwlPreconditionTesting/CwlDarwinDefinitions.swift
+Movies/Pods/Nimble/Sources/Lib/CwlPreconditionTesting/CwlPreconditionTesting/Mach/CwlPreconditionTesting.h
+Movies/Pods/Nimble/Sources/Nimble/DSL+Wait.swift
+Movies/Pods/Nimble/Sources/Nimble/DSL.swift
+Movies/Pods/Nimble/Sources/Nimble/Expectation.swift
+Movies/Pods/Nimble/Sources/Nimble/ExpectationMessage.swift
+Movies/Pods/Nimble/Sources/Nimble/Expression.swift
+Movies/Pods/Nimble/Sources/Nimble/FailureMessage.swift
+Movies/Pods/Nimble/Sources/Nimble/Nimble.h
+Movies/Pods/Nimble/Sources/Nimble/Adapters/AdapterProtocols.swift
+Movies/Pods/Nimble/Sources/Nimble/Adapters/AssertionDispatcher.swift
+Movies/Pods/Nimble/Sources/Nimble/Adapters/AssertionRecorder.swift
+Movies/Pods/Nimble/Sources/Nimble/Adapters/NimbleEnvironment.swift
+Movies/Pods/Nimble/Sources/Nimble/Adapters/NimbleXCTestHandler.swift
+Movies/Pods/Nimble/Sources/Nimble/Adapters/NMBExpectation.swift
+Movies/Pods/Nimble/Sources/Nimble/Adapters/NMBObjCMatcher.swift
+Movies/Pods/Nimble/Sources/Nimble/Matchers/AllPass.swift
+Movies/Pods/Nimble/Sources/Nimble/Matchers/AsyncMatcherWrapper.swift
+Movies/Pods/Nimble/Sources/Nimble/Matchers/BeAKindOf.swift
+Movies/Pods/Nimble/Sources/Nimble/Matchers/BeAnInstanceOf.swift
+Movies/Pods/Nimble/Sources/Nimble/Matchers/BeCloseTo.swift
+Movies/Pods/Nimble/Sources/Nimble/Matchers/BeEmpty.swift
+Movies/Pods/Nimble/Sources/Nimble/Matchers/BeginWith.swift
+Movies/Pods/Nimble/Sources/Nimble/Matchers/BeGreaterThan.swift
+Movies/Pods/Nimble/Sources/Nimble/Matchers/BeGreaterThanOrEqualTo.swift
+Movies/Pods/Nimble/Sources/Nimble/Matchers/BeIdenticalTo.swift
+Movies/Pods/Nimble/Sources/Nimble/Matchers/BeLessThan.swift
+Movies/Pods/Nimble/Sources/Nimble/Matchers/BeLessThanOrEqual.swift
+Movies/Pods/Nimble/Sources/Nimble/Matchers/BeLogical.swift
+Movies/Pods/Nimble/Sources/Nimble/Matchers/BeNil.swift
+Movies/Pods/Nimble/Sources/Nimble/Matchers/BeVoid.swift
+Movies/Pods/Nimble/Sources/Nimble/Matchers/Contain.swift
+Movies/Pods/Nimble/Sources/Nimble/Matchers/ContainElementSatisfying.swift
+Movies/Pods/Nimble/Sources/Nimble/Matchers/EndWith.swift
+Movies/Pods/Nimble/Sources/Nimble/Matchers/Equal.swift
+Movies/Pods/Nimble/Sources/Nimble/Matchers/HaveCount.swift
+Movies/Pods/Nimble/Sources/Nimble/Matchers/Match.swift
+Movies/Pods/Nimble/Sources/Nimble/Matchers/MatcherFunc.swift
+Movies/Pods/Nimble/Sources/Nimble/Matchers/MatcherProtocols.swift
+Movies/Pods/Nimble/Sources/Nimble/Matchers/MatchError.swift
+Movies/Pods/Nimble/Sources/Nimble/Matchers/PostNotification.swift
+Movies/Pods/Nimble/Sources/Nimble/Matchers/Predicate.swift
+Movies/Pods/Nimble/Sources/Nimble/Matchers/RaisesException.swift
+Movies/Pods/Nimble/Sources/Nimble/Matchers/SatisfyAnyOf.swift
+Movies/Pods/Nimble/Sources/Nimble/Matchers/ThrowAssertion.swift
+Movies/Pods/Nimble/Sources/Nimble/Matchers/ThrowError.swift
+Movies/Pods/Nimble/Sources/Nimble/Matchers/ToSucceed.swift
+Movies/Pods/Nimble/Sources/Nimble/Utils/Async.swift
+Movies/Pods/Nimble/Sources/Nimble/Utils/Errors.swift
+Movies/Pods/Nimble/Sources/Nimble/Utils/Functional.swift
+Movies/Pods/Nimble/Sources/Nimble/Utils/SourceLocation.swift
+Movies/Pods/Nimble/Sources/Nimble/Utils/Stringers.swift
+Movies/Pods/Nimble/Sources/NimbleObjectiveC/CurrentTestCaseTracker.h
+Movies/Pods/Nimble/Sources/NimbleObjectiveC/DSL.h
+Movies/Pods/Nimble/Sources/NimbleObjectiveC/DSL.m
+Movies/Pods/Nimble/Sources/NimbleObjectiveC/NMBExceptionCapture.h
+Movies/Pods/Nimble/Sources/NimbleObjectiveC/NMBExceptionCapture.m
+Movies/Pods/Nimble/Sources/NimbleObjectiveC/NMBStringify.h
+Movies/Pods/Nimble/Sources/NimbleObjectiveC/NMBStringify.m
+Movies/Pods/Nimble/Sources/NimbleObjectiveC/XCTestObservationCenter+Register.m
+Movies/Pods/Pods.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/Alamofire.xcscheme
+Movies/Pods/Pods.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/Bolts-Swift.xcscheme
+Movies/Pods/Pods.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/ESPullToRefresh-ESPullToRefresh.xcscheme
+Movies/Pods/Pods.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/ESPullToRefresh.xcscheme
+Movies/Pods/Pods.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/IQKeyboardManagerSwift.xcscheme
+Movies/Pods/Pods.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/Kingfisher.xcscheme
+Movies/Pods/Pods.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/Localize-Swift.xcscheme
+Movies/Pods/Pods.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/Nimble.xcscheme
+Movies/Pods/Pods.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/Pods-Movies.xcscheme
+Movies/Pods/Pods.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/Pods-MoviesTests.xcscheme
+Movies/Pods/Pods.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/PureLayout.xcscheme
+Movies/Pods/Pods.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/SVProgressHUD.xcscheme
+Movies/Pods/Pods.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/SwifterSwift.xcscheme
+Movies/Pods/Pods.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/SwiftyJSON.xcscheme
+Movies/Pods/Pods.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/XCGLogger.xcscheme
+Movies/Pods/Pods.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/xcschememanagement.plist
+Movies/Pods/SwifterSwift/LICENSE
+Movies/Pods/SwifterSwift/README.md
+Movies/Pods/SwifterSwift/Sources/Extensions/SwifterSwift.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/Cocoa/CGColorExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/Cocoa/CGFloatExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/Cocoa/CGPointExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/Cocoa/CGSizeExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/Cocoa/CLLocationExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/Cocoa/NSAttributedStringExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/Cocoa/NSColorExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/Cocoa/NSViewExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/Foundation/ArrayExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/Foundation/BoolExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/Foundation/CharacterExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/Foundation/CollectionExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/Foundation/DataExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/Foundation/DateExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/Foundation/DictionaryExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/Foundation/DoubleExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/Foundation/FloatExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/Foundation/FloatingPointExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/Foundation/IntExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/Foundation/LocaleExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/Foundation/OptionalExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/Foundation/StringExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/Foundation/URLExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/Foundation/Deprecated/FoundationDeprecated.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/UIKit/UIAlertControllerExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/UIKit/UIBarButtonItemExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/UIKit/UIButtonExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/UIKit/UICollectionViewExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/UIKit/UIColorExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/UIKit/UIImageExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/UIKit/UIImageViewExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/UIKit/UILabelExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/UIKit/UINavigationBarExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/UIKit/UINavigationControllerExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/UIKit/UINavigationItemExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/UIKit/UISearchBarExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/UIKit/UISegmentedControlExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/UIKit/UISliderExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/UIKit/UIStoryboardExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/UIKit/UISwitchExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/UIKit/UITabBarExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/UIKit/UITableViewExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/UIKit/UITextFieldExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/UIKit/UITextViewExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/UIKit/UIViewControllerExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/UIKit/UIViewExtensions.swift
+Movies/Pods/SwifterSwift/Sources/Extensions/UIKit/Deprecated/UIKitDeprecated.swift
+Movies/Pods/Target Support Files/ESPullToRefresh/ESPullToRefresh-dummy.m
+Movies/Pods/Target Support Files/ESPullToRefresh/ESPullToRefresh-prefix.pch
+Movies/Pods/Target Support Files/ESPullToRefresh/ESPullToRefresh-umbrella.h
+Movies/Pods/Target Support Files/ESPullToRefresh/ESPullToRefresh.modulemap
+Movies/Pods/Target Support Files/ESPullToRefresh/ESPullToRefresh.xcconfig
+Movies/Pods/Target Support Files/ESPullToRefresh/Info.plist
+Movies/Pods/Target Support Files/ESPullToRefresh/ResourceBundle-ESPullToRefresh-Info.plist
+Movies/Pods/Target Support Files/Nimble/Info.plist
+Movies/Pods/Target Support Files/Nimble/Nimble-dummy.m
+Movies/Pods/Target Support Files/Nimble/Nimble-prefix.pch
+Movies/Pods/Target Support Files/Nimble/Nimble-umbrella.h
+Movies/Pods/Target Support Files/Nimble/Nimble.modulemap
+Movies/Pods/Target Support Files/Nimble/Nimble.xcconfig
+Movies/Pods/Target Support Files/SwifterSwift/Info.plist
+Movies/Pods/Target Support Files/SwifterSwift/SwifterSwift-dummy.m
+Movies/Pods/Target Support Files/SwifterSwift/SwifterSwift-prefix.pch
+Movies/Pods/Target Support Files/SwifterSwift/SwifterSwift-umbrella.h
+Movies/Pods/Target Support Files/SwifterSwift/SwifterSwift.modulemap
+Movies/Pods/Target Support Files/SwifterSwift/SwifterSwift.xcconfig

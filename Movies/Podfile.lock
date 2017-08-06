@@ -1,11 +1,20 @@
 PODS:
   - Alamofire (4.5.0)
   - Bolts-Swift (1.3.0)
+  - ESPullToRefresh (2.6)
   - IQKeyboardManagerSwift (4.0.11)
   - Kingfisher (3.10.4)
   - Localize-Swift (1.7.1)
+  - Nimble (7.0.1)
   - PureLayout (3.0.2)
   - SVProgressHUD (2.1.2)
+  - SwifterSwift (3.1.0):
+    - SwifterSwift/Cocoa (= 3.1.0)
+    - SwifterSwift/Foundation (= 3.1.0)
+    - SwifterSwift/UIKit (= 3.1.0)
+  - SwifterSwift/Cocoa (3.1.0)
+  - SwifterSwift/Foundation (3.1.0)
+  - SwifterSwift/UIKit (3.1.0)
   - SwiftyJSON (3.1.4)
   - XCGLogger (4.0.0):
     - XCGLogger/Core (= 4.0.0)
@@ -14,25 +23,31 @@ PODS:
 DEPENDENCIES:
   - Alamofire (~> 4.3)
   - Bolts-Swift
+  - ESPullToRefresh
   - IQKeyboardManagerSwift
   - Kingfisher
   - Localize-Swift (~> 1.7)
+  - Nimble
   - PureLayout
   - SVProgressHUD
+  - SwifterSwift
   - SwiftyJSON
   - XCGLogger (~> 4.0.0)
 
 SPEC CHECKSUMS:
   Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
   Bolts-Swift: fa98d1b59fc1acea9b21a21306dcdca1c85e3737
+  ESPullToRefresh: 85f4990acf87f78c6a1466bbbee7a75d7de24db9
   IQKeyboardManagerSwift: 10f0a6b8ea2904c8943c0e1a116c99f5b8ad83af
   Kingfisher: dc3a4983e86d2dfa89513664983a82340c11a289
   Localize-Swift: 6cabc1087c0e910e77bfa87c2ed3f65c80c0b2df
+  Nimble: 657d000e11df8aebe27cdaf9d244de7f30ed87f7
   PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  SwifterSwift: f84eb7308f7742724b3cbf84283ce00f7c06d7fc
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
   XCGLogger: 38063ea89b4c8b23232d18efd2e12eb0005f3ea4
 
-PODFILE CHECKSUM: c2fc8b07f710ee08df018991e8456805f83487a2
+PODFILE CHECKSUM: bfd11639d304201e3d8c1ac7bd59edbbded1e2ff
 
 COCOAPODS: 1.3.0

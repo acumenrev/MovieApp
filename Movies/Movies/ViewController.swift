@@ -13,6 +13,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        MAAPIMovies.getMovies(with: Date(), pageNumber: 1) { (movies, err) in
+            print("")
+        }
     }
 
     override func didReceiveMemoryWarning() {

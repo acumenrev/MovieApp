@@ -9,6 +9,7 @@
 import UIKit
 import Alamofire
 import SwiftyJSON
+import SwifterSwift
 
 class MANetworkManager: MABaseManager {
     enum ContentType : String {
@@ -25,6 +26,7 @@ class MANetworkManager: MABaseManager {
     private override init() {
         super.init()
         self.config()
+        MAAppUtils.configLogger()
     }
     
     deinit {
@@ -42,13 +44,16 @@ class MANetworkManager: MABaseManager {
     /// - Returns: URLSessionConfiguration
     private func urlSessionConfiguration() -> URLSessionConfiguration {
         let configuration = URLSessionConfiguration.default
-        /*
-        if AppDelegate.originDelegate.director?.canReachInternet == true  {
-            configuration.requestCachePolicy = NSURLRequest.CachePolicy.reloadIgnoringCacheData
-        } else {
-            configuration.requestCachePolicy = NSURLRequest.CachePolicy.returnCacheDataDontLoad
-        }
-        */
+        #if TESTING
+            
+        #else
+            if AppDelegate.originDelegate.director?.canReachInternet == true {
+                configuration.requestCachePolicy = NSURLRequest.CachePolicy.reloadIgnoringCacheData
+            } else {
+                configuration.requestCachePolicy = NSURLRequest.CachePolicy.returnCacheDataDontLoad
+            }
+        #endif
+        
         
         configuration.timeoutIntervalForRequest = 15
         configuration.allowsCellularAccess = true
@@ -92,10 +97,10 @@ class MANetworkManager: MABaseManager {
         }
     }
     
-    fileprivate func parseErrorFromResponse(_ error : Error?, _ res : DataResponse<Any>?) -> AppError? {
+    fileprivate func parseErrorFromResponse(_ error : Error?, _ res : DataResponse<Any>?) -> MAAppError? {
         guard let error = error else { return nil }
         
-        let appErr = AppError()
+        let appErr = MAAppError()
         appErr.data = res?.data
         var domainName = ""
         
@@ -177,6 +182,179 @@ class MANetworkManager: MABaseManager {
         
         
         return data
+    }
+}
+
+// MARK: - GET
+extension MANetworkManager {
+    
+    func get(withUrl url : String, headers : [String : String]? = nil,  completionBlock : ((_ response : MANetworkResponseModel?, _ error : MAAppError?) -> ())? = nil) -> DataRequest? {
+        MAAppUtils.log.debug("get request: \(url)")
+        
+        var modifiedHeaders = headers
+        if let headers = headers {
+            for header in headers {
+                modifiedHeaders?[header.key] = header.value
+            }
+        }
+        
+        return sessionManager?.request(url, method: .get, parameters: nil, encoding: JSONEncoding.default, headers: modifiedHeaders).validate().responseJSON(completionHandler: { (res) in
+            switch res.result {
+            case .success(let value):
+                let json = JSON(value)
+                MAAppUtils.log.debug(url.urlEncoded + " get success: \(json.debugDescription)")
+                let response = MANetworkResponseModel.init(json)
+                completionBlock?(response, nil)
+                break
+            case .failure(let error):
+                MAAppUtils.log.debug(url.urlEncoded + " get fail: " + error.localizedDescription)
+                let appError = self.parseErrorFromResponse(error, res)
+                completionBlock?(nil, appError)
+                break
+            }
+        })
+    }
+}
+
+
+// MARK: - POST
+extension MANetworkManager {
+    func post(withUrl url : String, params : Any? , headers : [String : String]? = nil, contentType : ContentType? = .json ,completionBlock : ((_ response : MANetworkResponseModel?, _ error : MAAppError?) -> ())? ) -> DataRequest? {
+        guard let urlObject = URL(string: url) else { return nil }
+        
+        MAAppUtils.log.debug("post request \(url) with params:\n \(String(describing: params))")
+        
+        var request = URLRequest(url: urlObject)
+        request.httpMethod = "post"
+        request.setValue(contentType?.rawValue ?? ContentType.json.rawValue, forHTTPHeaderField: "Content-Type")
+        request.setValue("no-cache, no-store, must-revalidate", forHTTPHeaderField: "Cache-Control")
+        request.setValue("en", forHTTPHeaderField: "Accept-Language")
+        
+        if let headers = headers {
+            for instance in headers {
+                request.setValue(instance.value, forHTTPHeaderField: instance.key)
+            }
+        }
+        
+        
+        request.httpBody = httpBody(with: params, contentType: contentType ?? .json)
+        
+        
+        return sessionManager?.request(request).validate().responseJSON(completionHandler: { (res) in
+            
+            switch res.result {
+                
+            case .success(let value):
+                let json = JSON(value)
+                MAAppUtils.log.debug(url + " post success: \(json.debugDescription)")
+                let response = MANetworkResponseModel.init(json)
+                completionBlock?(response, nil)
+                break
+            case .failure(let error):
+                MAAppUtils.log.debug(url + " post fail: \(error.localizedDescription)")
+                let appError = self.parseErrorFromResponse(error,res)
+                if let data = res.data {
+                    let json = JSON(data)
+                    let response = MANetworkResponseModel.init(json)
+                    completionBlock?(response, appError)
+                } else {
+                    completionBlock?(nil, appError)
+                }
+                
+                
+                break
+            }
+        })
+    }
+    
+    
+    
+}
+
+
+// MARK: - PUT
+extension MANetworkManager {
+    func put(withUrl url : String, params : Any? , headers : [String : String]? = nil, contentType : ContentType? = .json  ,completionBlock : ((_ response : MANetworkResponseModel?, _ error : MAAppError?) -> ())? ) -> DataRequest? {
+        guard let urlObject = URL(string: url) else { return nil }
+        
+        MAAppUtils.log.debug("put request \(url) with params:\n \(String(describing: params))")
+        
+        var request = URLRequest(url: urlObject)
+        request.httpMethod = "post"
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        request.setValue("no-cache, no-store, must-revalidate", forHTTPHeaderField: "Cache-Control")
+        
+        if let headers = headers {
+            for instance in headers {
+                request.setValue(instance.value, forHTTPHeaderField: instance.key)
+            }
+        }
+        
+        request.httpBody = httpBody(with: params, contentType: contentType ?? .json)
+        
+        return sessionManager?.request(request).validate().responseJSON(completionHandler: { (res) in
+            switch res.result {
+            case .success(let value):
+                let json = JSON(value)
+                MAAppUtils.log.debug(url + " put success: \(json.debugDescription)")
+                let response = MANetworkResponseModel.init(json)
+                completionBlock?(response, nil)
+                break
+            case .failure(let error):
+                MAAppUtils.log.debug(url + " put fail: \(error.localizedDescription)")
+                let appError = self.parseErrorFromResponse(error, res)
+                completionBlock?(nil, appError)
+                break
+            }
+        })
+    }
+}
+
+
+// MARK: - DELETE
+extension MANetworkManager {
+    /// Delete request
+    ///
+    /// - Parameters:
+    ///   - url: URL
+    ///   - params: Parameters
+    ///   - headers: Headers
+    ///   - completeBlock: Completion block
+    /// - Returns: DataRequest object
+    func delete(url : String, params : [String : Any]?, headers : [String : String]? = nil, contentType : ContentType? = .json ,completionBlock : ((_ response : MANetworkResponseModel?, _ error : MAAppError?) -> ())? = nil) -> DataRequest? {
+        guard let urlObject = URL(string: url) else { return nil }
+        
+        MAAppUtils.log.debug(url + "\n delete Params: " + MAAppUtils.checkNullString(params?.description))
+        
+        var request = URLRequest(url: urlObject)
+        request.httpMethod = "delete"
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        request.setValue("no-cache, no-store, must-revalidate", forHTTPHeaderField: "Cache-Control")
+        
+        if let headers = headers {
+            for instance in headers {
+                request.setValue(instance.value, forHTTPHeaderField: instance.key)
+            }
+        }
+        
+        request.httpBody = httpBody(with: params, contentType: contentType ?? .json)
+        
+        return sessionManager?.request(request).responseJSON(completionHandler: { (res) in
+            switch res.result {
+            case .success(let value):
+                let json = JSON(value)
+                MAAppUtils.log.debug(url + "delete request success with data: \(json.debugDescription)")
+                let response = MANetworkResponseModel.init(json)
+                
+                completionBlock?(response, nil)
+                break
+            case .failure(let error):
+                MAAppUtils.log.debug(url + " delete fail: \(error.localizedDescription)")
+                let appError = self.parseErrorFromResponse(error, res)
+                completionBlock?(nil, appError)
+                break
+            }
+        })
     }
 }
 

@@ -22,6 +22,7 @@ class MAAppError: MABaseObject, Error {
         self.statusCode = statusCode
         self.domainName = domainName
         self.userInfo = userInfo
+        self.data = data
     }
 
 }
